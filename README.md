@@ -3,7 +3,7 @@ docker-composeで作成
 
 ## 構成
 - wordpress 6.3.1
-- mysql:8.0
+- mysql 8.0
 - phpmyadmin latest
 
 ## 起動

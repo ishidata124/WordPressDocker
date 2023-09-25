@@ -10,7 +10,7 @@ services:
       MYSQL_USER: wp_user # WordPress用データベース接続ユーザ名
       MYSQL_PASSWORD: drow # WordPress用データベース接続パスワード
   WordPress:
-    image: wordpress:6.3.1 # latestでも可
+    image: wordpress:6.3.1
     container_name: wordpress
     restart: always
     depends_on:

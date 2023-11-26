@@ -9,6 +9,8 @@ services:
       MYSQL_DATABASE: db_local # WordPress用データベース名
       MYSQL_USER: wp_user # WordPress用データベース接続ユーザ名
       MYSQL_PASSWORD: drow # WordPress用データベース接続パスワード
+    volumes:
+      - ./db_data:/var/lib/mysql
   WordPress:
     image: wordpress:6.3.1
     container_name: wordpress

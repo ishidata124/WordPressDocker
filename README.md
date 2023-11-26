@@ -20,3 +20,8 @@ http://localhost:20080
 ```
 http://localhost:10090
 ```
+
+## WordPressの移行
+```
+https://help.fc2.com/web/manual/group251/4400
+```
